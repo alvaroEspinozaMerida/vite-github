@@ -34,8 +34,8 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v3
         with:
-          node-verion:18
-          cache:'npm'
+          node-verion: 18
+          cache: 'npm'
       - name: Install Dependencies
         run: npm install
       - name: Build
